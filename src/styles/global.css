@@ -1,0 +1,26 @@
+:root {
+  --bg: #f7f6f2;
+  --card: #fcfcfa;
+  --soft: #efeee9;
+  --active: #e6e4de;
+  --line: #c9c9c9;
+  --ink: #2f2f2f;
+  --muted: #8a8a8a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
